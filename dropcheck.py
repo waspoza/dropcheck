@@ -105,7 +105,7 @@ for url in urls:
         check_for_drops(url)
 
 log.debug(f"mail_lines lenngth: {len(mail_lines)}")
-from secrets import username, password, smtp_server, sender_email, receiver_email
+from scrts import username, password, smtp_server, sender_email, receiver_email
 #if False:
 if mail_lines:
     log.debug(f"☀️ got some mail lines")
