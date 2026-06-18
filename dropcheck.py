@@ -93,7 +93,7 @@ urls = ["https://www.twitch.tv/directory/category/hearthstone", "https://www.twi
 
 # exclude checking when you are aware and promotion is still ongoing
 #              end date              url substring
-excludes = [(datetime(2026, 5, 22), "world"),
+excludes = [(datetime(2026, 7, 16), "world"),
             (datetime(2026, 3, 15), "hearth")]
 
 today = datetime.now()
